@@ -253,7 +253,7 @@ utserver_install()
 	cd /tmp/utinstall
 
 	# Download utserver and untar
-	wget -q -O utserver.tar.gz http://download-new.utorrent.com/endpoint/utserver/os/linux-i386-debian-6-0/track/beta/
+	wget -q -O utserver.tar.gz http://www.utorrent.com/dowloads/complete/type/utserver/os/linux-x64-debian-6-0/track/beta
 
 	if [ ! -e "utserver.tar.gz" ]; then
 		echo "Error: Downloading failed."
